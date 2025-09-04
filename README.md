@@ -10,20 +10,6 @@ Responsive UI: Built with Bootstrap 5 for a modern, mobile-friendly interface.
 Persistent Storage: Uses SQLite to store tasks, preserving data between sessions.
 Visual Feedback: Color-coded task statuses (Pending: orange, Completed: green) and flash messages for user actions.
 
-Project Structure
-todo_gui_app/
-├── main.py              # Flask app entry point and routes
-├── db_handler.py        # SQLite database operations
-├── requirements.txt     # Dependencies (Flask)
-├── README.md            # Project documentation
-├── templates/
-│   ├── index.html       # Main page with task list and form
-│   └── update_task.html # Page for updating tasks
-├── static/
-│   ├── css/
-│   │   └── styles.css   # Custom CSS styles
-│   └── js/
-│       └── scripts.js   # JavaScript for client-side validation
 
 Prerequisites
 
@@ -31,11 +17,7 @@ Python 3.8 or higher: Install from python.org.
 Git: For cloning the repository (optional).
 VS Code: Recommended for development, with the Python extension installed.
 
-Installation
 
-Clone the Repository (or use your existing project folder):
-git clone https://github.com/your-username/todo_gui_app.git
-cd todo_gui_app
 
 Replace your-username with your GitHub username, or use D:\To Do List App if already set up.
 
