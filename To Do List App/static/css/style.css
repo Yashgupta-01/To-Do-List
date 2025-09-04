@@ -1,0 +1,31 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-responsive {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.status-pending {
+    color: #f0ad4e;
+    font-weight: bold;
+}
+
+.status-completed {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.btn-sm {
+    margin-right: 5px;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
